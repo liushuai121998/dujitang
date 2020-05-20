@@ -20,7 +20,7 @@ export default Custom_page({
   },
   async getData() {
     const $appDef = this.$app.$def
-    const {data} = await $appDef.$http.get(`/ensentence/index?key=${$appDef.key}`)
+    const {data} = await $appDef.$http.get(`/dujitang/index?key=${$appDef.key}`)
     if(data.code === 200) {
       this.newsList = data.newslist
     }

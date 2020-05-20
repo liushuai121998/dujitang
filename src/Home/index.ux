@@ -15,8 +15,7 @@
               <text class="time">{{dateNow}}</text>
               <div class="content-text">
                 <div class="content-text__content"> 
-                  <text class="en">{{item.en}}</text>
-                  <text>{{item.zh}}</text>
+                  <text>{{item.content}}</text>
                 </div>
               </div>
             </list-item>

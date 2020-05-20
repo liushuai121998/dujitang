@@ -5,21 +5,17 @@
     position: relative;
   }
   .title {
-    position: absolute;
-    width: 100%;
-    top: 180px;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    height: 180px;
+    margin-left: 280px;
+    margin-top: 120px;
   }
   .title__icon {
-      height: 90px;
+      height: 75px;
+      margin-bottom: 10px;
   }
   .title__sub-icon {
-      position: absolute;
-      top: 120px;
-      height: 50px;
+      height: 40px;
   }
   .title text {
       font-size: 90px;
@@ -31,7 +27,7 @@
       width: 220px;
   }
   .main {
-    margin-top: 420px;
+    margin-top: 40px;
     display: flex;
     flex-direction: column;
     padding: 0 50px;
@@ -41,7 +37,6 @@
     flex-direction: column;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
-    /* border-radius: 20px 20px 0 0; */
   }
   .content-item {
     display: flex;
@@ -191,6 +186,7 @@
   .content__reply .time {
       color: #999;
       margin-bottom: 10px;
+      text-align: center;
   }
 
   .en {
