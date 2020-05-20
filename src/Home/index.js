@@ -29,7 +29,7 @@ export default Custom_page({
   },
   longPress(item, e) {
     clipboard.set({
-      text: `${item.en}\n${item.zh}`,
+      text: `${item.content}`,
       success () {
         prompt.showToast({
           message: '复制成功'
