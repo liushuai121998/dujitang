@@ -1,8 +1,8 @@
 {
   "package": "com.dujitang.package",
-  "name": "毒鸡汤",
-  "versionName": "1.0.2",
-  "versionCode": "2",
+  "name": "一同毒鸡汤",
+  "versionName": "1.0.3",
+  "versionCode": "3",
   "minPlatformVersion": "1060",
   "icon": "/Common/logo.png",
   "features": [
@@ -41,7 +41,7 @@
     "menu": true,
     "pages": {
       "Home": {
-        "titleBarText": "毒鸡汤",
+        "titleBarText": "一同毒鸡汤",
         "menu": false,
         "titleBar": false
       }
